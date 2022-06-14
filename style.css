@@ -1,2 +1,208 @@
-/* Adicione aqui todo o estilo da sua página */
-/* Hora de colocar a criatividade em prática! */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+}
+header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    height: auto;
+    width: 100%;
+    /* position: fixed; */
+}
+nav{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    /* background-color: antiquewhite; */
+}
+.nav-container a{
+    text-decoration: none;
+    color:gray;
+}
+.nav-container a:hover{
+    color: red;
+}
+.nav-container ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-container li{
+    color: gray;
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#divbusca{
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    /* background-color: blueviolet; */
+    width: 300px;
+}
+#txtbusca{
+    background-color: transparent;
+    height: 32px;
+    width: 260px;
+    border: none;
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    color: white;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+#ticket-icon{
+    padding: 13px;
+}
+#button-icon{
+    padding: 13px;
+}
+#button-icon:hover{
+    background-color: whitesmoke;
+    border-radius: 90%;
+}
+#cupom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00FF00;
+    width: 100%;
+    height: 60px;
+}
+#textCupom{
+    /* background-color: grey; */
+    width: 500px;
+    height: 40px;
+}
+#textCupom-text{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+}
+#content-center{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 300px;
+    /* background-color: #c4c4c4; */
+}
+#content-rest{
+    display: flex;
+    justify-content: center;  
+    /* background-color: #00FF00; */
+    width: 60%;
+    height: 250px;
+}
+#pizza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    /* background-color: white; */
+    margin: 30px;
+}
+#pizza, #hamburguer, #mercado, #bebidas h2{
+    font-family: 'IM Fell French Canon', serif;
+    color: black;
+}
+#pizza, #hamburguer, #mercado, #bebidas, a{
+    text-decoration: none;
+    text-align: center;
+}
+
+#hamburguer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    /* background-color: white; */
+    margin: 30px;
+}
+#mercado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    /* background-color: white; */
+    margin: 30px;
+}
+#bebidas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    /* background-color: white; */
+    margin: 30px;
+}
+#artigo{
+    display: flex;
+    width: 80%;
+    height: 1400px;
+    /* background-color: #00FF00; */
+    justify-content: center;
+    flex-direction: column;
+}
+.artigo-pizza{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    /* background-color: red; */
+    margin-top: 20px;
+    /* border-top: solid red; */
+}
+.artigo-pizzaRE{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    /* background-color: red; */
+    margin-top: 20px;
+    /* border-style: solid; */
+}
+#img-pizza{
+    width: 400px;
+    height: 300px;
+    /* background-color: aqua; */
+}
+#img-pizza img{
+    border-radius: 20%;
+}
+#rodape{
+    width: 100%;
+    height: 300px;
+    background-color: #00FF00;
+}

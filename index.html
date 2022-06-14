@@ -1,16 +1,132 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-
-  <!-- Adicione o estilo da sua página no arquivo CSS -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="style.css">
-
-  <!-- Algum nome especial para seu restaurante? -->
-  <title>Document</title>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@1&display=swap" rel="stylesheet">
+  <title>Ifood do Thiago</title>
 </head>
+
 <body>
-  <!-- Adicione aqui a estrutura HTML da página do seu restaurante -->
+  <header>
+    <div>
+      <img src="img/images.png" alt="ifood logo" width="60" height="60">
+    </div>
+    <nav class="nav-container">
+      <ul>
+        <li><a href="index.html">Pizzas</a></li>
+        <li><a href="">Hamburguers</a></li>
+        <li><a href="">Mercado</a></li>
+        <li><a href="">Bebidas</a></li>
+      </ul>
+    </nav>
+    <div id="divbusca">
+      <input type="text" id="txtbusca" placeholder="O que deseja?" />
+    </div>
+  </header>
+  <section id="cupom">
+    <img id="ticket-icon" src="img/ticket.png" alt="ticket de desconto" width="32px" height="32px">
+    <div id="textCupom">
+      <p id="textCupom-text">Você tem 10 Cupons! Aproveite os Descontos</p>
+    </div>
+    <img id="button-icon" src="img/down-arrow.png" alt="ticket de desconto" width="32px" height="32px">
+  </section>
+  <main>
+    <section id="content-center">
+      <section id="content-rest">
+        <div id="pizza">
+          <a href="">
+            <h2>Pizzas</h2>
+            <img src="img/pizza.png" alt="restaurantes de pizza" width="150px">
+          </a>
+        </div>
+        <div id="hamburguer">
+          <a href="">
+            <h2>Hamburguers</h2>
+            <img src="img/fast-food.png" alt="restaurantes de hamburguer" width="150px">
+          </a>
+        </div>
+        <div id="mercado">
+          <a href="">
+            <h2>Mercado</h2>
+            <img src="img/market.png" alt="Mercado" width="150px">
+          </a>
+        </div>
+        <div id="bebidas">
+          <a href="">
+            <h2>Bebidas</h2>
+            <img src="img/bebida-alcoolica.png" alt="Bebidas" width="150px">
+          </a>
+        </div>
+      </section>
+    </section>
+    <article id="artigo">
+      <section class="artigo-pizza">
+          <div id="img-pizza">
+            <img src="img/artigopizza.jpg" alt="Artigo sobre as pizzas">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ex ea quidem libero sequi. Esse ex atque nobis
+            cum
+            reprehenderit velit reiciendis, harum in, assumenda possimus at voluptates eaque est quo. <br>Lorem ipsum
+            dolor
+            sit amet consectetur adipisicing elit.Qui sequi ad ducimus quae inventore ipsam natus fugiat, fugit a
+            explicabo velit repudiandae voluptatem non <br>aperiam minima, laudantium doloremque nam! Quo!</p>
+      </section>
+      <section class="artigo-pizza">
+        <div class="artigo-pizzaRE">
+          <div id="img-pizza">
+            <img src="img/hamburgueratigo.jpg" alt="Artigo sobre as pizzas" width="400px" height="300px">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ex ea quidem libero sequi. Esse ex atque nobis
+            cum
+            reprehenderit velit reiciendis, harum in, assumenda possimus at voluptates eaque est quo. <br>Lorem ipsum
+            dolor
+            sit amet consectetur adipisicing elit.Qui sequi ad ducimus quae inventore ipsam natus fugiat, fugit a
+            explicabo velit repudiandae voluptatem non <br>aperiam minima, laudantium doloremque nam! Quo!</p>
+        </div>
+      </section>
+      <section class="artigo-pizza">
+          <div id="img-pizza">
+            <img src="img/mercadoartigo.jpg" alt="Artigo sobre as pizzas" width="400px" height="300px">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ex ea quidem libero sequi. Esse ex atque nobis
+            cum
+            reprehenderit velit reiciendis, harum in, assumenda possimus at voluptates eaque est quo. <br>Lorem ipsum
+            dolor
+            sit amet consectetur adipisicing elit.Qui sequi ad ducimus quae inventore ipsam natus fugiat, fugit a
+            explicabo velit repudiandae voluptatem non <br>aperiam minima, laudantium doloremque nam! Quo!</p>
+      </section>
+      <section class="artigo-pizza">
+          <div class="artigo-pizzaRE">
+            <div id="img-pizza">
+              <img src="img/bebidasartigo.jpg" alt="Artigo sobre as pizzas" width="400px" height="300px">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ex ea quidem libero sequi. Esse ex atque
+              nobis cum
+              reprehenderit velit reiciendis, harum in, assumenda possimus at voluptates eaque est quo. <br>Lorem ipsum
+              dolor
+              sit amet consectetur adipisicing elit.Qui sequi ad ducimus quae inventore ipsam natus fugiat, fugit a
+              explicabo velit repudiandae voluptatem non <br>aperiam minima, laudantium doloremque nam! Quo!</p>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <div id="rodape">
+      <p>Serviço disponível nas áreas de entrega Ifood Do Thiago, todos os dias, de acordo com o horário de funcionamento
+        de cada loja. O Ifood Do Thiago Brasil se reserva o direito de alterar ou encerrar as ofertas sem aviso prévio.
+        Todas as promoções expostas não são cumulativas entre si ou com outras promoções e descontos. Cobramos taxa de
+        entrega. Todos os nossos produtos CONTÉM GLÚTEN. Alérgicos: todos os nossos produtos contém ou podem conter
+        traços de Trigo, Ovos, Leite e Soja. As formas de pagamento variam de acordo com cada loja. Imagens meramente
+        ilustrativas. Consulte se sua loja de preferência pratica a promoção escolhida Em caso de dúvidas, consulte
+        nosso SAC:<a href="sac@ifooddothiago.com.br" target="">E-mail SAC</a></p>
+    </div>
+  </footer>
 </body>
+
 </html>
