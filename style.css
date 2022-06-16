@@ -44,6 +44,7 @@ ul {
   padding: 15px;
   display: inline;
   border: 2px solid red;
+  border-radius: 8px;
   /* background-color: #FF5403; */
 }
 
