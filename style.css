@@ -1,86 +1,87 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: rgb(255, 230, 0);
+body {
+  background-color: rgb(255, 230, 0);
 }
 /* Caixa do centro */
-main{
-    display: flex;
-    justify-content: center;
-    width: 100%%;
-    height: 800px;
-    /* background-color: aliceblue; */
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%%;
+  height: 800px;
+  /* background-color: aliceblue; */
 }
 
 /* Caxia do Logo */
-#center-logo{
-    /* background-color: aqua; */
-    margin: 5%;
-    width: 100%;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#center-logo {
+  /* background-color: aqua; */
+  margin: 5%;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* Conteudo do centro */
-#center-logo h2{
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 80px;
-    color: rgb(249, 7, 22);
-    text-shadow: 2px 2px black;
+#center-logo h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 80px;
+  color: rgb(249, 7, 22);
+  text-shadow: 2px 2px black;
 }
-ul{
-    margin: 15px;
-    /* background-color: #FF5403; */
+ul {
+  margin: 15px;
+  /* background-color: #FF5403; */
 }
 
 /* lista nao ordenada links */
-#text-and-content li{
-    margin: 10px;
-    padding: 15px;
-    display: inline;
-    border: 2px solid red;
-    /* background-color: #FF5403; */
+#text-and-content li {
+  margin: 10px;
+  padding: 15px;
+  display: inline;
+  border: 2px solid red;
+  /* background-color: #FF5403; */
 }
 
 /* Conteudo do A  */
-#text-and-content a{
-    margin: 10px;
-    padding: 15px;
-    text-decoration: none;
-    font-family: 'Merriweather Sans', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px black;
-    /* background-color: aqua; */
+#text-and-content a {
+  font-size: 18px;
+  margin: 10px;
+  padding: 15px;
+  text-decoration: none;
+  font-family: "Merriweather Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px black;
+  /* background-color: aqua; */
 }
-#rodape{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 50px;
-    background-color: #FF5403;
+#rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: #ff5403;
 }
-#rodape-text{
-    display: flex;
-    color: white;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    height: 100%;
+#rodape-text {
+  display: flex;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
 }
-#rodape-text p{
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 12px;
+#rodape-text p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
 }
 
 /* BLOCO DO HOVER BUTTONS/A/LI */
-li:hover{
-    background-color: rgb(247, 6, 6);
+li:hover {
+  background-color: rgb(247, 6, 6);
 }
 /* FIM DO BLOCO DO HOVER */
