@@ -31,7 +31,7 @@ main{
 /* Conteudo do centro */
 #center-logo h2{
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 60px;
+    font-size: 80px;
     color: rgb(249, 7, 22);
 }
 ul{
@@ -49,11 +49,11 @@ ul{
     padding: 15px;
     text-decoration: none;
     font-family: 'Merriweather Sans', sans-serif;
-    color: azure;
+    color: rgb(255, 255, 255);
     /* background-color: aqua; */
 }
 /* BLOCO DO HOVER BUTTONS/A/LI */
 li:hover{
-    background-color: rgb(255, 84, 3);
+    background-color: rgb(250, 110, 45);
 }
 /* FIM DO BLOCO DO HOVER */
