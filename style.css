@@ -11,7 +11,24 @@ body{
 main{
     margin: 5%;
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     width: 60%;
     height: 800px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+}
+#center-logo{
+    /* background-color: aqua; */
+    margin: 5%;
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#center-logo h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 90px;
+    color: rgb(249, 7, 22);
 }
