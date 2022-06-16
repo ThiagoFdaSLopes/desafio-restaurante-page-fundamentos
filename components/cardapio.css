@@ -38,9 +38,21 @@ header{
 /* Inicio cardapio */
 .menu{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 5px;
     width: 40%;
-    height: 600px;
+    height: 650px;
     background-color: rgb(92, 92, 92);
     border-radius: 25px;
+}
+/* Options */
+.menu-two{
+    margin: 10px;
+    display: flex;
+    width: 90%;
+    height: 100px;
+    background-color: #f04242;
+    border-radius: 20px;
 }
