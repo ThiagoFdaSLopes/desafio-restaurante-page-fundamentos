@@ -17,6 +17,7 @@ main{
     height: 800px;
     /* background-color: aliceblue; */
 }
+/* Caxia do Logo */
 #center-logo{
     /* background-color: aqua; */
     margin: 5%;
@@ -27,8 +28,24 @@ main{
     align-items: center;
     flex-direction: column;
 }
+/* Conteudo do centro */
 #center-logo h2{
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 90px;
+    font-size: 60px;
     color: rgb(249, 7, 22);
+}
+ul{
+    margin-top: 30px;
+}
+#text-and-content li{
+    margin-right: 10px;
+    padding: 15px;
+    display: inline;
+    border: 2px solid red;
+}
+#text-and-content a{
+    padding: 40px 35px;
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: azure;
 }
