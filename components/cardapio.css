@@ -9,9 +9,34 @@ header{
     display: flex;
     width: 100%;
     height: 150px;
-    background-color: #FFCA03;
+    background-color: #e9b600;
     justify-content: center;
     align-items: center;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 75px;
+    background-color: #f04242;
+
+}
+#titulo-head p:nth-child(1){
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-right: 50px;
+    text-shadow: 2px 2px black;
+    color: #f04242;
+}
+#titulo-head p:nth-child(2){
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: #a72222;
+    text-shadow: 2px 2px black;
 }
 /* background center main */
 .content-center{
@@ -43,7 +68,7 @@ header{
     justify-content: center;
     margin: 5px;
     width: 40%;
-    height: 650px;
+    height: 550px;
     background-color: rgb(92, 92, 92);
     border-radius: 25px;
 }
@@ -51,8 +76,42 @@ header{
 .menu-two{
     margin: 10px;
     display: flex;
+    justify-content: space-between;
     width: 90%;
     height: 100px;
     background-color: #f04242;
     border-radius: 20px;
+}
+.preco{
+    order: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 80px;
+    background-color: #e9b600;
+    margin: 10px;
+    border-radius: 20px;
+}
+.preco p{
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.imagem-options{
+    order: -1;
+    width: 20%;
+    height: 80px;
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 20px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 80px;
+    background-color: azure;
+    margin: 10px;
 }
