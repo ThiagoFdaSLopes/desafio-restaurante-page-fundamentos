@@ -79,7 +79,7 @@ header{
     justify-content: space-between;
     width: 90%;
     height: 100px;
-    background-color: #f04242;
+    background-color: #f8a50a;
     border-radius: 20px;
 }
 .preco{
@@ -89,7 +89,7 @@ header{
     align-items: center;
     width: 20%;
     height: 80px;
-    background-color: #e9b600;
+    background-color: #bb8114;
     margin: 10px;
     border-radius: 20px;
 }
@@ -99,10 +99,13 @@ header{
     font-size: 30px;
 }
 .imagem-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     order: -1;
     width: 20%;
     height: 80px;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 10px;
     border-radius: 20px;
 }
@@ -112,6 +115,18 @@ header{
     align-items: center;
     width: 50%;
     height: 80px;
-    background-color: azure;
+    /* background-color: azure; */
     margin: 10px;
+}
+.texto a{
+    background-color: #a72222;
+    margin: 8px;
+    padding: 8px;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.texto a:hover{
+    background-color: #a53d3d;
+
 }
